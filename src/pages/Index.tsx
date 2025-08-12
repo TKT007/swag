@@ -17,9 +17,10 @@ const Index = () => {
     }, 500);
   };
 
-  const handleComplete = () => {
-    window.open("https://rewarrdsgiant.com/aff_c?offer_id=2701&aff_id=18892", "_blank");
-  };
+const handleComplete = () => {
+  const finalUrl = addSourceToUrl("https://rewarrdsgiant.com/aff_c?offer_id=2701&aff_id=18892");
+  window.open(finalUrl, "_blank");
+};
 
   const progress = currentStep === 0 ? 25 : currentStep === 1 ? 75 : 100;
 
