@@ -18,7 +18,7 @@ const Index = () => {
   };
 
   const handleComplete = () => {
-    window.open("https://rewarrdsgiant.com/aff_c?offer_id=1084&aff_id=1497", "_blank");
+    window.open("https://rewarrdsgiant.com/aff_c?offer_id=2701&aff_id=18892", "_blank");
   };
 
   const progress = currentStep === 0 ? 25 : currentStep === 1 ? 75 : 100;
