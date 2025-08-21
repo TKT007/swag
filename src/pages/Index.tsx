@@ -18,7 +18,7 @@ const Index = () => {
   };
 
 const handleComplete = () => {
-  const finalUrl = addSourceToUrl("https://rewarduplevel.com/aff_c?offer_id=2738&aff_id=18892");
+  const finalUrl = addSourceToUrl("https://rewarduplevel.com/aff_c?offer_id=1897&aff_id=1497");
   window.open(finalUrl, "_blank");
 };
 
